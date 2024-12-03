@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0.3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+}
+
+.big-text{
+    font-size: 4rem;
+    color: white;
+}
+
+.text{
+    max-width: 80%;
+    font-size: 1.5rem;
+}
+
+.info-area{
+    width: 85%;
+    height: max-content;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    row-gap: 3vh;
+    column-gap: 3vh;
+}
+
+.info-card{
+    width: 40%;
+    height: fit-content;
+    background-color: rgb(74, 74, 74);
+    color: white;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.image{
+    position:fixed;
+    z-index: -1;
+    width: 100vw;
+    height: 135vh;
+}
